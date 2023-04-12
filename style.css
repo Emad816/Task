@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  /* position: fixed; */
+  display: flex;
+  width: 100%;
+  background-color: rgb(130, 22, 149);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar p {
+  padding: 10px;
+}
+
+.navBar p:hover {
+  background-color: black;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  background-color: black;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background: cadetblue;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.flex {
+  background-color: #eee;
+  width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+
+  /* add New Element before do this Propery */
+  flex-wrap: nowrap;
+}
+
+.flex div {
+  background-color: rgb(130, 22, 149);
+  color: white;
+  width: 180px;
+  text-align: center;
+  padding: 20px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.Center {
+  background-color: rgb(12, 172, 108);
+  color: white;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
